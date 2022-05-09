@@ -1,0 +1,38 @@
+[System.Runtime]
+; Автоматично генерирано при пуск и лиспса на конфигурации
+enable = 1
+transfer = 1
+ssl = 1
+
+[Comunications.Systems]
+; Автоматично генерирано при пуск и лиспса на конфигурации
+protocol = mqtt
+schema = https://
+host = iot.scrtl.xyz
+port = 8883
+user = vladimirtet:mqttuser
+password = 59f7de71-3e8e-4278-af96-a5dbc40c57a5
+cert = /home/pi/Application/Project/BME680/secure/iot.scrtl.xyz.pem
+
+[Comunications.Topics]
+; Автоматично генерирано при пуск и лиспса на конфигурации
+humidity = 78pPLEWoCKPWMRhc2jqpXT
+lowPowerGas = 78pPLEWoCKPWMRhc2jqpXT
+pressure = 4cQKj1FSptNsfGWdSWRZKQ
+temperature = 4cQKj1FSptNsfGWdSWRZKQ
+windSpeed = 4J3zFwSmyXty2g661Vqq49
+windGust = 4J3zFwSmyXty2g661Vqq49
+windDirection = 4J3zFwSmyXty2g661Vqq49
+rainFall = 4J3zFwSmyXty2g661Vqq49
+groundTemperature = 4J3zFwSmyXty2g661Vqq49
+
+sensor_windSpeed = "windSpeed"
+sensor_windGust = "windGust"
+sensor_windDirectionCustom = "windDirectionCustom"
+sensor_rainFall = "rainFall"
+sensor_groundTemperature = "groundTemperature"
+sensor_temperature = "temperature"
+sensor_pressure = "pressure"
+sensor_lowPowerGas = "lowPowerGas"
+sensor_humidity = "humidity"
+

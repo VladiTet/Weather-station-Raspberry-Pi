@@ -1,0 +1,9 @@
+[Unit]
+Description=Weather Station Service
+After=network.target
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/Application/Project/BME680/Weather.py
+Restart=always
+User=pi
+[Install]
+WantedBy=multi-user.target

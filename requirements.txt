@@ -1,0 +1,11 @@
+-i https://pypi.org/simple
+bme680==1.1.1
+click==8.0.4
+colorzero==2.0
+gpiozero==1.6.2
+importlib-metadata==4.8.3 ; python_version > '3.4'
+paho-mqtt==1.6.1
+smbus==1.1.post2
+typing-extensions==4.1.1 ; python_version > '3.4'
+w1thermsensor==2.0.0
+zipp==3.6.0
